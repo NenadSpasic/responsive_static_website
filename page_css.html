@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Zavrsni sajt</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" media="screen,projection">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<div class="container">
+ 
+ 
+  <nav id="navigation">
+    <div class="nav-wrapper"> <span class="brand-logo grey-text text-darken-4">CSS</span> <a href="#" data-target="mobile-demo" class="sidenav-trigger grey-text text-darken-4"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down grey-text text-darken-4">
+        <li><a href="index.html">HTML</a></li>
+		<li><a href="page_css.html">CSS</a></li>
+		<li><a href="page_js.html">JavaScript</a></li>
+		<li><a href="page_php.html">PHP</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav color" id="mobile-demo">
+    <li><a href="index.html">HTML</a></li>
+	<li><a href="page_css.html">CSS</a></li>
+	<li><a href="page_js.html">JavaScript</a></li>
+	<li><a href="page_php.html">PHP</a></li>
+  </ul>
+  
+  <div class="row"> 
+       	<div class="col s12 m8"  >
+    		<div class="card-panel color2">
+    			<p>
+				Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+				CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+
+				Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.
+
+				The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+
+				The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.
+
+				In addition to HTML, other markup languages support the use of CSS, including XHTML, plain XML, SVG, and XUL.
+
+			</p>
+    		</div>
+    		
+   	
+    	</div>
+    	<div class="col s12 m4">
+				<div class="card horizontal">
+				  <div class="card-image">
+					<img src="img/logo_css.jpg">
+				  </div>
+				  <div class="card-stacked">
+					<div class="card-content">
+					  <p>CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p>
+					</div>
+					<div class="card-action">
+					 <a href="https://www.w3schools.com/tags/" class="blue-text">Learn CSS</a>
+					</div>
+				  </div>
+				</div>
+    	</div>
+    	
+    	
+  </div> <!-- end of ROW 1 -->
+  
+ <div class="row">
+  	  <ul class="collapsible popout">
+		<li>
+		  <div class="collapsible-header"><i class="material-icons">computer</i>History</div>
+		  <div class="collapsible-body color"><span>
+		  
+		  CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the time, Lie was working with Tim Berners-Lee at CERN. Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996. In particular, Bert Bos' proposal was influential; he became co-author of CSS1 and is regarded as co-creator of CSS.
+
+		Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web. One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of "cascading" styles.
+
+		As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb,[24] made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web.[25] Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.
+		  
+		  </span></div>
+		</li>
+		<li>
+		  <div class="collapsible-header"><i class="material-icons">create</i>Use</div>
+		  <div class="collapsible-body color2"><span>
+		  Before CSS, nearly all presentational attributes of HTML documents were contained within the HTML markup. All font colors, background styles, element alignments, borders and sizes had to be explicitly described, often repeatedly, within the HTML. CSS lets authors move much of that information to another file, the style sheet, resulting in considerably simpler HTML.
+
+		For example, headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+
+		Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup. The advantages of this may not be immediately clear (since the second form is actually more verbose), but the power of CSS becomes more apparent when the style properties are placed in an internal style element or, even better, an external CSS file.
+		  
+		  </span></div>
+		</li>
+		<li>
+		  <div class="collapsible-header"><i class="material-icons">code</i>Frameworks</div>
+		  <div class="collapsible-body color"><span>
+		  CSS frameworks are pre-prepared libraries that are meant to allow for easier, more standards-compliant styling of web pages using the Cascading Style Sheets language. CSS frameworks include Foundation, Blueprint, Bootstrap, Cascade Framework and Materialize. Like programming and scripting language libraries, CSS frameworks are usually incorporated as external .css sheets referenced in the HTML &lt;head&gt;. They provide a number of ready-made options for designing and laying out the web page. Although many of these frameworks have been published, some authors use them mostly for rapid prototyping, or for learning from, and prefer to 'handcraft' CSS that is appropriate to each published site without the design, maintenance and download overhead of having many unused features in the site's styling.
+		  
+		  </span></div>
+		</li>
+	  </ul>
+  	
+  </div> <!-- end of COLLAPS -->
+	
+  
+  <div class="row">
+ 
+ 	<div class="carousel color">
+		<a class="carousel-item" href="#one!"><img src="img/Håkon_Wium_Lie.jpg"></a>
+		<a class="carousel-item" href="#two!"><img src="img/logo_css.jpg"></a>
+		<a class="carousel-item" href="#three!"><img src="img/html-css-js.jpg"></a>
+		<a class="carousel-item" href="#four!"><img src="img/baner.png"></a>
+		<a class="carousel-item" href="#five!"><img src="img/semantics.png"></a>
+	</div>
+ 	
+
+ 	
+  
+  </div> <!-- end of imgs -->
+  
+   <div class="row"> 
+       	<div class="col s12 m8">
+       		<div class="card-panel color2">
+       		<h3>CSS3</h3>
+       		<p>
+    		Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup. The advantages of this may not be immediately clear (since the second form is actually more verbose), but the power of CSS becomes more apparent when the style properties are placed in an internal style element or, even better, an external CSS file.
+    		For example, under pre-CSS HTML, a heading element defined with red text would be written as:
+    		</p>
+				</div>
+	   </div>
+	   <div class="col s12 m4 z-depth-5 code hoverable">
+<pre><code>
+&lt;h1&gt; &lt;font color="red"&gt; Chapter 1. &lt;/font&gt;&lt;/h1&gt;
+</code></pre>	
+	
+		<pre><code>
+&lt;h1 style="color: red;"&gt; Chapter 1. &lt;/h1&gt;
+</code></pre>
+			
+
+    	</div>
+  </div> <!-- end of ROW 3 -->
+  
+     
+   <div class="row"> 
+       	<div class="col s12 m6">
+			<div class="video-container z-depth-4">
+
+				<iframe 
+				width="420"
+				height="315"
+				src="https://www.youtube.com/embed/yfoY53QXEnI"
+				frameborder="0" allow="autoplay; encrypted-media" >
+
+				</iframe>
+
+			</div>
+    	</div>
+    	
+    	<div class="col s12 m6"> 
+			<div class="video-container z-depth-4">
+
+				<iframe 
+				width="420"
+				height="315"
+				src="https://www.youtube.com/embed/nVANwdryGVc" 
+				frameborder="0" 
+				allow="autoplay; encrypted-media">
+				</iframe>
+
+			</div>
+    	</div>
+  </div> <!-- end of ROW 5 -->
+  
+   
+   <footer id="footer-end" class="page-footer">
+	   <div class="footer-copyright">
+				<div class="container">
+				Made with  ❤ by <a href="https://nenadspasic.com/" title="spasic" target="_blank"> Spasic</a> 
+				</div>
+		</div>
+   </footer> <!-- end of FOOTER -->
+  
+  
+</div> <!-- end of CONTAINER div -->
+<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script>
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });	
+
+	 $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+	
+	$(document).ready(function(){
+    $('.carousel').carousel();
+  });
+	
+		
+</script>
+</body>
+</html>
